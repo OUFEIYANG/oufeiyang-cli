@@ -1,15 +1,14 @@
 {
   "name": "oufeiyang-cli",
-  "version": "1.0.0-beta",
+  "version": "1.1.4-beta",
   "description": "",
   "main": "index.js",
   "bin": {
-    "oufeiyang-cli": "./bin/cli.js",
-    "dev": "./bin/cli.js"
+    "oufeiyang-cli": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node bin/cli.js"
+    "dev": "node ./bin/cli.js init"
   },
   "keywords": [
     "oufeiyang-cli",
@@ -29,7 +28,8 @@
     "download-git-repo": "^3.0.2",
     "ejs": "^3.1.8",
     "fs-extra": "^10.1.0",
+    "globby": "^11.0.2",
     "inquirer": "^7.3.3",
-    "ora": "^5.4.0"
+    "isbinaryfile": "^4.0.6"
   }
 }

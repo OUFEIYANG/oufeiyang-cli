@@ -1,6 +1,4 @@
-- 输入oufeiyang-cli init
-- 询问创建什么项目名字
-- 询问什么框架
-- vue => 询问ts or js
-- react => 询问ts or js
--
+# USE STEP
+
+1. npm install oufeiyang-cli -g
+2. oufeiyang-cli init
